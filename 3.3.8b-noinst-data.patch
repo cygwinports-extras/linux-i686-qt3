@@ -1,0 +1,16 @@
+--- origsrc/qt-x11-free-3.3.8b/src/qt_install.pri	2008-01-15 13:09:14.000000000 -0600
++++ src/qt-x11-free-3.3.8b/src/qt_install.pri	2013-07-21 17:22:00.422345700 -0500
+@@ -13,11 +13,11 @@ INSTALLS += headers headers_p
+ #docs
+ htmldocs.files = ../doc/html/*
+ htmldocs.path = $$docs.path/html
+-INSTALLS += htmldocs
++#INSTALLS += htmldocs
+ 
+ #translations
+ translations.files = ../translations/*.qm
+-INSTALLS += translations
++#INSTALLS += translations
+ 
+ framework:macx { #mac framework
+     QtFramework = /Library/Frameworks/Qt.framework
